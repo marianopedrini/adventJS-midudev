@@ -45,16 +45,11 @@ Encima nos hemos dado cuenta que algunas palabras vienen con un \_ delante de la
 
 Transforma el texto a un objeto que contenga el nombre de cada regalo y las veces que aparece. Por ejemplo, si tenemos el texto:
 
----
-
-**NOTE**
+```
 const carta = 'bici coche balón \_playstation bici coche peluche'
-
----
+```
 
 Al ejecutar el método debería devolver lo siguiente:
-
----
 
 ```javascript
 const regalos = listGifts(carta)
