@@ -9,33 +9,25 @@ Considera una lista/array de ovejas. Cada oveja tiene un nombre y un color. Haz 
 
 Por ejemplo, si tenemos las ovejas:
 
----
-
-**NOTE**
+```javascript
 const ovejas = [
-{ name: 'Noa', color: 'azul' },
-{ name: 'Euge', color: 'rojo' },
-{ name: 'Navidad', color: 'rojo' },
-{ name: 'Ki Na Ma', color: 'rojo'}
-]
-
----
+  { name: 'Noa', color: 'azul' },
+  { name: 'Euge', color: 'rojo' },
+  { name: 'Navidad', color: 'rojo' },
+  { name: 'Ki Na Ma', color: 'rojo' },
+];
+```
 
 Al ejecutar el método debería devolver lo siguiente:
 
----
+```javascript
+const ovejasFiltradas = contarOvejas(ovejas);
 
-**NOTE**
-const ovejasFiltradas = contarOvejas(ovejas)
-
-console.log(ovejasFiltradas)
+console.log(ovejasFiltradas);
 
 // [{ name: 'Navidad', color: 'rojo' },
 // { name: 'Ki Na Ma', color: 'rojo' }]
-
----
-
----
+```
 
 ## 2- Regalos
 
@@ -45,8 +37,8 @@ Encima nos hemos dado cuenta que algunas palabras vienen con un \_ delante de la
 
 Transforma el texto a un objeto que contenga el nombre de cada regalo y las veces que aparece. Por ejemplo, si tenemos el texto:
 
-```
-const carta = 'bici coche balón \_playstation bici coche peluche'
+```javascript
+const carta = 'bici coche balón _playstation bici coche peluche';
 ```
 
 Al ejecutar el método debería devolver lo siguiente:
