@@ -56,7 +56,7 @@ Al ejecutar el método debería devolver lo siguiente:
 
 ---
 
-**NOTE**
+```javascript
 const regalos = listGifts(carta)
 
 console.log(regalos)
@@ -69,7 +69,7 @@ peluche: 1
 }
 _/
 
----
+```
 
 Ten en cuenta que los tests pueden ser más exhaustivos... 😝 ¡Cuidado con contar espacios vacíos!
 
@@ -85,8 +85,6 @@ Para saber si una carta es válida ✅, debes comprobar que los paréntesis cier
 
 Ejemplos:
 
----
-
 ```javascript
 'bici coche (balón) bici coche peluche'; // -> ✅
 '(muñeca) consola bici'; // ✅
@@ -96,7 +94,5 @@ Ejemplos:
 '(peluche {) bici'; // -> ❌
 '() bici'; // ❌
 ```
-
----
 
 Crea una función que pasándole el texto de la carta, devuelva true si es válida y false si no lo es. ¡Y acaba con la travesura del Grinch!
